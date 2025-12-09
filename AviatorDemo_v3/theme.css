@@ -1,0 +1,17 @@
+:root{
+  --bg:#0b0b0d;
+  --card:#0f1720;
+  --accent:#ef4444; /* red */
+  --muted:#94a3b8;
+  --glass: rgba(255,255,255,0.04);
+}
+body { background: linear-gradient(180deg, #020204, #071018); color: #e6eef8; margin:0; font-family: Inter, system-ui, sans-serif; }
+.app-card { background: var(--card); padding:12px; border-radius:12px; box-shadow: 0 6px 18px rgba(0,0,0,0.6); }
+.btn { background: var(--accent); color: white; padding:8px 12px; border-radius:8px; border: none; cursor:pointer; }
+.small { font-size:12px; color:var(--muted); }
+.header { display:flex; align-items:center; gap:12px; }
+.logo { width:44px; height:44px; border-radius:8px; background: radial-gradient(circle at 30% 30%, rgba(255,255,255,0.08), transparent); display:flex; align-items:center; justify-content:center; }
+.flex { display:flex; gap:12px; align-items:center; }
+.card-grid { display:grid; grid-template-columns: 1fr 360px; gap:12px; align-items:start; }
+.history-list { max-height:220px; overflow:auto; font-size:13px; }
+.badge { background: rgba(255,255,255,0.04); padding:4px 8px; border-radius:999px; font-size:12px; }
