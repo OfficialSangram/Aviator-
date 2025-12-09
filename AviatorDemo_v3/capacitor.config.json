@@ -1,0 +1,6 @@
+{
+  "appId": "com.example.aviator",
+  "appName": "Aviator",
+  "webDir": "build",
+  "bundledWebRuntime": false
+}
